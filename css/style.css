@@ -5,7 +5,7 @@ header {
     width: 100%;
 }
 
-.heading {
+#heading {
 	text-align: center;
 	background: #37959C;
 	color: white;
