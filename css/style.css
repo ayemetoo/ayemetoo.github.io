@@ -6,7 +6,7 @@ html, body {
 #heading {
 	text-align: center;
 	background: #37959C;
-	color: white;
+	color: aliceblue;
 	margin-left: 0;
     padding-left: 0;
 }
@@ -30,7 +30,7 @@ li {
 
 li a {
     display: block;
-    color: aliceblue;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
