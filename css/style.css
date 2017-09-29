@@ -7,8 +7,8 @@ html {
 	text-align: center;
 	background: #37959C;
 	color: white;
-	margin: 0;
-    padding: 0;
+	margin-left: 0;
+    padding-left: 0;
 }
 
 ul {
@@ -16,7 +16,8 @@ ul {
     top: 0;
     width: 100%;
     list-style-type: none;
-    
+	margin: 0;
+    padding: 0;
     overflow: hidden;
     background-color: #556870;
 	
