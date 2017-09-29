@@ -40,6 +40,15 @@ li a:hover {
     background-color: #111;
 }
 
+li > #me {
+	
+}
+
+h2 {
+	margin-left: 1%;
+}
+
 p {
 	font-family:verdana;
+	margin-left: 1%;
 }
