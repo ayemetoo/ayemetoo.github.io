@@ -64,6 +64,11 @@ li a:hover {
     background-color: #111;
 }
 
+#right {
+	border-left: 1px solid #bbb
+	float: right;
+}
+
 
 h2 {
 	margin-left: 1%;
