@@ -65,7 +65,13 @@ li a:hover {
 }
 
 #right {
-	border-left: 1px solid #bbb
+	background-color: #667779; 
+	font-size: 1rem;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+	border-left: 1px solid #bbb;
 	float: right;
 }
 
