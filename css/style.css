@@ -6,15 +6,17 @@ html, body {
 #splash {
 	margin-left: 0;
     padding-left: 0;
-	margin-top: 2rem;
+	height: 50vh;
 	background-image: url("../sun.JPG");
 	background-color: #37959C;
 	background-repeat: none;
-	background-size: cover;
+	background-size: 100%;
 }
 
 
 .heading {
+	
+	padding-top: 4rem;
 	text-align: center;
 	color: aliceblue;
 	margin-left: 0;
@@ -22,6 +24,13 @@ html, body {
 	
 }
 
+article {
+	
+    padding-bottom: 0;
+	padding-top: 2rem;
+	background-color: #445567;
+	color: white;
+}
 
 
 ul {
@@ -65,4 +74,6 @@ h2 {
 p {
 	font-family:verdana;
 	margin-left: 1%;
+	margin-bottom: 0;
+	margin-top: 0;
 }
