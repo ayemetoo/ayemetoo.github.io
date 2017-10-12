@@ -6,9 +6,9 @@ html, body {
 #splash {
 	margin-left: 0;
     padding-left: 0;
-	height: 45rem;
+	height: 40rem;
 	background-image: url("../img/sun.JPG");
-	background-color: #37959C;
+	background-color: #6600cc;
 	background-repeat: none;
 	background-size: cover;
 }
