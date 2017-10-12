@@ -3,9 +3,7 @@ html, body {
 	padding: 0;
 }
 
-#heading {
-	text-align: center;
-	color: aliceblue;
+#splash {
 	margin-left: 0;
     padding-left: 0;
 	background-image: url("sunset.jpg");
@@ -13,6 +11,16 @@ html, body {
 	background-repeat: none;
 	background-size: cover;
 }
+
+
+#heading {
+	text-align: center;
+	color: aliceblue;
+	margin-left: 0;
+    padding-left: 0;
+}
+
+
 
 ul {
 	position: fixed;
