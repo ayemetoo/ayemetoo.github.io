@@ -6,11 +6,11 @@ html, body {
 #splash {
 	margin-left: 0;
     padding-left: 0;
-	height: 50vh;
+	height: 50rem;
 	background-image: url("../sun.JPG");
 	background-color: #37959C;
 	background-repeat: none;
-	background-size: 100%;
+	background-size: cover;
 }
 
 
