@@ -5,11 +5,11 @@ html, body {
 
 #heading {
 	text-align: center;
-	background: #37959C;
 	color: aliceblue;
 	margin-left: 0;
     padding-left: 0;
-	background-image: url('img/sunset.jpg');
+	background-image: url("img/sunset.jpg");
+	background-color: #37959C;
 }
 
 ul {
