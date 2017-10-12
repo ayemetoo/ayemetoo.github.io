@@ -20,7 +20,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #556870;
-	opacity: 0.2;
+	opacity: 0.5;
 	
 }
 
@@ -41,9 +41,6 @@ li a:hover {
     background-color: #111;
 }
 
-li > #me {
-	
-}
 
 h2 {
 	margin-left: 1%;
