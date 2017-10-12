@@ -43,6 +43,7 @@ li {
 }
 
 li a {
+	font-size: 1rem;
     display: block;
     color: white;
     text-align: center;
