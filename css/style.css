@@ -20,6 +20,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #556870;
+	opacity: 0.2;
 	
 }
 
@@ -47,6 +48,8 @@ li > #me {
 h2 {
 	margin-left: 1%;
 }
+
+
 
 p {
 	font-family:verdana;
