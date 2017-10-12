@@ -9,7 +9,7 @@ html, body {
 	margin-left: 0;
     padding-left: 0;
 	background-image: url("img/sunset.jpg");
-	
+	background-color: #37959C;
 	background-repeat: none;
 	background-size: cover;
 }
