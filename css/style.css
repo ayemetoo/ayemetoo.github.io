@@ -6,6 +6,7 @@ html, body {
 #splash {
 	margin-left: 0;
     padding-left: 0;
+	margin-top: 1rem;
 	background-image: url("sunset.jpg");
 	background-color: #37959C;
 	background-repeat: none;
@@ -18,7 +19,7 @@ html, body {
 	color: aliceblue;
 	margin-left: 0;
     padding-left: 0;
-	margin-top: 1rem;
+	
 }
 
 
