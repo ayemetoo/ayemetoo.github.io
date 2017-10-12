@@ -18,7 +18,8 @@ html, body {
 	color: aliceblue;
 	margin-left: 0;
     padding-left: 0;
-	padding-top: 1em;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 }
 
 
