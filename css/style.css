@@ -1,7 +1,7 @@
-@import url(//fonts.googleapis.com/css?family=Roboto+Slab);
-@import url(//fonts.googleapis.com/css?family=Open+Sans);
-@import url(//fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
-@import url(//fonts.googleapis.com/css?family=Ubuntu);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
 
 html, body {
 	margin: 0;
@@ -61,9 +61,10 @@ article {
 	padding: 3rem 5px 3rem 5px;
 	background-color: #353d48;
 	color: white;
+
 }
 
-article > h2 {
+article > h2, article > div > h2 {
 	margin-left: 1%;
 	color: #aliceblue;
 	font-family: 'Ubuntu', verdana;
@@ -72,6 +73,18 @@ article > h2 {
 
 #class {
 	background-color: #303d48;
+}
+
+.table {
+	background-color: #3d3d5c;
+	border-color: #333333;
+	padding-bottom: 0px;
+}
+thead {
+	background-color: #29293d;
+}
+.nav-tabs > li > a {
+	color: #a3b4c2;
 }
 
 #proj {
@@ -84,7 +97,7 @@ article > h2 {
 
 p {
 	font-family: 'Open Sans', verdana;
-	font-size: 1.5rem;
+	font-size: 18px;
 	margin-left: 1%;
 	margin-bottom: 0;
 	margin-top: 0;
