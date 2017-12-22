@@ -40,10 +40,13 @@ html, body {
 } #heading-sub {
 	font-family: 'Open Sans Condensed';
 }
+.page-header {
+	text-shadow: 1px 1px 3px #bbbbbb, -1px 0px 3px #bbbbbb;
+}
 
 #inspirational{
 	padding: 10px;
-	box-shadow: 2px 2px 2px #666666;
+	box-shadow: 2px 2px 2px #666666, -2px 0px 2px #666666;
 	border-radius: 5px;
 	background-color: #333333;
 	opacity: 0.5;
@@ -70,8 +73,8 @@ article {
 .section {
 	background-color:  #21252c;
 	border: 2px solid #21252c;
-	box-shadow: 1px 1px 1px black;
-	padding: 0px 5px 15px 5px;
+	box-shadow: 1.5px 1.5px 2px #13161a, -1.5px -1.5px 2px #13161a;
+	padding: 0px 5px 20px 5px;
 }
 
 article > h2, article > div > h2 {
@@ -97,10 +100,32 @@ thead {
 	color: #a3b4c2;
 }
 
-p {
+p, span {
 	font-family: 'Open Sans', verdana;
 	font-size: 18px;
 	margin-left: 1%;
 	margin-bottom: 0;
 	margin-top: 0;
+}
+
+#contact > div > div {
+	text-align: center;
+	padding: 5px 5px 5px 5px;
+}
+
+.contact-button:hover, .contact-button:focus {
+	text-align: right;
+}
+
+#break {
+	width: 100%;
+	height: 100px;
+	background: transparent;
+}
+
+#code-entered {
+	align: center;
+	width: 0px;
+	opacity: 0;
+	background: transparent;
 }
