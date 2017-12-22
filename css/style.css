@@ -100,7 +100,7 @@ thead {
 	color: #a3b4c2;
 }
 
-p, span {
+p {
 	font-family: 'Open Sans', verdana;
 	font-size: 18px;
 	margin-left: 1%;
@@ -108,13 +108,17 @@ p, span {
 	margin-top: 0;
 }
 
-#contact > div > div {
+.logos > div {
 	text-align: center;
-	padding: 5px 5px 5px 5px;
 }
 
-.contact-button:hover, .contact-button:focus {
-	text-align: right;
+.contact-button {
+ 	width: 145px;
+ 	height: 145px;
+}
+
+.contact-button:hover > a > img, .contact-button:focus > a > img{
+	width: 130px;
 }
 
 #break {
