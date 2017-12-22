@@ -8,6 +8,8 @@ html, body {
 	padding: 0;
 	height: 100%;
 	position: relative;
+	background: url("../img/polka-dots.png");
+	background-attachment: fixed;
 }
 #splash {
 	margin-left: 0;
@@ -58,9 +60,9 @@ html, body {
 }
 
 article {
-	background: url("../img/polka-dots.png");
+	background: transparent;
 	padding: 3rem 5px 3rem 5px;
-	background-color: #353d48;
+	background-color: transparent;
 	color: white;
 
 }
@@ -78,9 +80,9 @@ article > h2, article > div > h2 {
 	font-family: 'Ubuntu', verdana;
 }
 
-
-#class {
-	background-color: #303d48;
+.well {
+	background: url("../img/polka-dots.png");
+	background-attachment: fixed;
 }
 
 .table {
@@ -93,14 +95,6 @@ thead {
 }
 .nav-tabs > li > a {
 	color: #a3b4c2;
-}
-
-#proj {
-  background-color: #273d48;
-}
-
-#contact {
- background-color: #233d48;
 }
 
 p {
