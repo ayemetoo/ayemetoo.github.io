@@ -2,7 +2,8 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu);
-
+@import url(https://fonts.googleapis.com/css?family=Orbitron);
+/*BODY AND SPLASH*/
 html, body {
 	margin: 0;
 	padding: 0;
@@ -23,7 +24,6 @@ html, body {
   background-size: cover;
 	border-bottom: 5px solid #333333;
 }
-
 @media screen and (min-width: 768px) {
   #splash {
     height: 100%;
@@ -43,7 +43,6 @@ html, body {
 .page-header {
 	text-shadow: 1px 1px 3px #bbbbbb, -1px 0px 3px #bbbbbb;
 }
-
 #inspirational{
 	padding: 10px;
 	box-shadow: 2px 2px 2px #666666, -2px 0px 2px #666666;
@@ -52,7 +51,7 @@ html, body {
 	opacity: 0.5;
 	color: white;
 }
-
+/*NAVBAR*/
 #navbar {
 	opacity: 0.5;
 	-webkit-transition: all 0.6s ease-out;
@@ -67,9 +66,8 @@ article {
 	padding: 3rem 5px 3rem 5px;
 	background-color: transparent;
 	color: white;
-
 }
-
+/*ALL SECTIONS*/
 .section {
 	background-color:  #21252c;
 	border: 2px solid #21252c;
@@ -77,12 +75,22 @@ article {
 	padding: 0px 5px 20px 5px;
 }
 
-article > h2, article > div > h2 {
+article h2 {
 	margin-left: 1%;
 	color: #aliceblue;
 	font-family: 'Ubuntu', verdana;
+	text-shadow: 1px 1px 1px #b3b3ff, -1px 0px 1px #b3b3ff;
 }
 
+p {
+	font-family: 'Open Sans', verdana;
+	font-size: 18px;
+	margin-left: 1%;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+/*Classwork*/
 .well {
 	background: url("../img/polka-dots.png");
 	background-attachment: fixed;
@@ -100,31 +108,83 @@ thead {
 	color: #a3b4c2;
 }
 
-p {
-	font-family: 'Open Sans', verdana;
+/* Projects -- code for text on hover from css-workshop.com */
+#proj .row div {
+	padding: 5px;
 	font-size: 18px;
-	margin-left: 1%;
-	margin-bottom: 0;
-	margin-top: 0;
+}
+#proj h3 {
+	font-family: 'Roboto Slab', verdana;
+	text-shadow: 1px 1px 2px #c1f0f0, -1px 0px #c1f0f0;
 }
 
+.hover-pictures {
+	position: relative;
+	display: inline-block;
+	max-width: 100%;
+	height: auto;
+}
+.hover-text {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7);
+	color: #fff;
+	padding: 15px;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-ms-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+	overflow-y: scroll;
+}
+.hover-text:hover, .hover-text:active {
+	opacity: 1;
+}
+
+.hover-text::-webkit-scrollbar {
+	width: 5px;
+	background-color: #000000;
+}
+
+.hover-text::-webkit-scrollbar-thumb {
+	background-color: #3d3d5c;
+}
+
+.text {
+	font-family: 'Open Sans';
+}
+
+#proj img {
+	width: 100%;
+}
+#proj img:hover {
+	box-shadow: 1px 1px 2px #cccccc, -1px 0px 2px #cccccc;
+}
+
+#proj a{
+  text-align: center;
+	color: white;
+	font-family: 'Orbitron';
+}  #proj a:hover {
+	text-decoration: none;
+	color: #cccccc;
+}
+
+/*Contact*/
 .logos > div {
 	text-align: center;
 }
-
 .contact-button {
  	width: 145px;
  	height: 145px;
 }
-
 .contact-button:hover > a > img, .contact-button:focus > a > img{
 	width: 130px;
-}
-
-#break {
-	width: 100%;
-	height: 100px;
-	background: transparent;
 }
 
 #code-entered {
